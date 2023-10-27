@@ -1,8 +1,35 @@
+html,
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 62.5%;
+}
+
+h1 {
+  color: rgb(99 214 189);
+  font-size: 3.8rem;
+  font-weight: 800;
+}
+
+h2 {
+  color: rgb(230 108 178);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font: 14px 'Lucida Grande', Helvetica, Arial, sans-serif;
+
+  background-color: rgb(18 24 38);
+  color: rgb(230 173 96);
+
+  padding: 0 6rem;
 }
 
 a {
-  color: #00B7FF;
+  color: #00b7ff;
+}
+
+button {
+  padding: 1rem;
 }
